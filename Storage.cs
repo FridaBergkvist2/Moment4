@@ -4,6 +4,11 @@ using System.Collections.Generic;
 public class Storage<T>
 {
     private List<T> lista = new List<T>();
+
+public int Antal
+{
+    get { return lista.Count; }
+}
     
 public void LäggTill(T objekt)
     {

@@ -37,6 +37,7 @@ while (kör)
         }
  
 Console.WriteLine("\nProdukter i Storage:"); 
+Console.WriteLine($"\nAntal produkter i Storage: {produktStorage.Antal}");
 produktStorage.SkrivUtAlla();
 
     }
