@@ -1,4 +1,4 @@
-﻿public class ProduktLåda<T>
+﻿public class Produkter<T>
 {
     public T Innehåll { get; set; }
 
